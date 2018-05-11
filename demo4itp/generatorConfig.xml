@@ -8,7 +8,7 @@
   			name="suppressDate" value="true" /></commentGenerator>
   	<jdbcConnection
   		connectionURL="jdbc:sqlite:D:\TOOLS\springboot\itp.db" 
-  		driverClass="org.sqlite.jdbc" password="" userId="" /><javaTypeResolver>
+  		driverClass="org.sqlite.JDBC" password="" userId="" /><javaTypeResolver>
 	<property name="forceBigDecimals" value="false" /></javaTypeResolver>
   	<javaModelGenerator targetPackage="com.test.tools"
   		targetProject="demo4itp/src/main/java" >
